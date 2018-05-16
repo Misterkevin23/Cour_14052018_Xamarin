@@ -1,0 +1,11 @@
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\bin\iPhoneSimulator\Debug\Clock.exe
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\bin\iPhoneSimulator\Debug\Clock.pdb
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\Clock.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\Clock.exe
+C:\Users\kevin\Documents\Cour_de_la_semaine_du_20180515_Xamarin\Corrections\TabNavigation\Start\Clock\obj\iPhoneSimulator\Debug\Clock.pdb

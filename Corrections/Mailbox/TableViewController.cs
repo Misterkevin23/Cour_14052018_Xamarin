@@ -39,5 +39,13 @@ namespace Mailbox
             alert.AddAction(UIAlertAction.Create("ok", UIAlertActionStyle.Default, null));
             PresentViewController(alert, true, null);
         }
+
+        public override void AccessoryButtonTapped(UITableView tableView, NSIndexPath indexPath)
+        {
+            UIStoryboard sb = UIStoryboard.FromName("Main", null);
+            MailController mc = sb.InstantiateViewController("MailController") as MailController;
+            mc.item = emailServer.Email[indexPath.Row];
+            ShowViewController(mc, null);
+        }
     }
 }

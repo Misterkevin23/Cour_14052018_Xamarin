@@ -1,0 +1,12 @@
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\bin\iPhoneSimulator\Debug\MailBox_iOS.exe
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\bin\iPhoneSimulator\Debug\MailBox_iOS.pdb
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\optimized\
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\MailBox_iOS.csprojAssemblyReference.cache
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\MailBox_iOS.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\MailBox_iOS.exe
+c:\users\admin\source\repos\MailBox_iOS\MailBox_iOS\obj\iPhoneSimulator\Debug\MailBox_iOS.pdb
