@@ -1,17 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Calculatrice"
-             x:Class="Calculatrice.MainPage">
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="NumberButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderRadius" Value="0"/>
+                <Setter Property="FontSize" Value="36"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <StackLayout Spacing="0" Padding="10">
-        <Entry BackgroundColor="Black" WidthRequest="100" HeightRequest="70" TextColor="White"/>
         <Grid ColumnSpacing="0" RowSpacing="0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -19,21 +31,25 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Text="1" Grid.Row="0" Grid.Column="0"></Button>
-            <Button Text="2" Grid.Row="0" Grid.Column="1"></Button>
-            <Button Text="3" Grid.Row="0" Grid.Column="2"></Button>
-            <Button Text="*" Grid.Row="0" Grid.Column="3" BackgroundColor="Orange"></Button>
-            <Button Text="4" Grid.Row="1" Grid.Column="0"></Button>
-            <Button Text="5" Grid.Row="1" Grid.Column="1"></Button>
-            <Button Text="6" Grid.Row="1" Grid.Column="2"></Button>
-            <Button Text="+" Grid.Row="1" Grid.Column="3" BackgroundColor="Orange"></Button>
-            <Button Text="7" Grid.Row="2" Grid.Column="0"></Button>
-            <Button Text="8" Grid.Row="2" Grid.Column="1"></Button>
-            <Button Text="9" Grid.Row="2" Grid.Column="2"></Button>
-            <Button Text="-" Grid.Row="2" Grid.Column="3" BackgroundColor="Orange"></Button>
-            <Button Text="0" Grid.Row="3" Grid.Column="0"></Button>
-            <Button Text="=" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"></Button>
-            <Button Text="/" Grid.Row="3" Grid.Column="3" BackgroundColor="Orange"></Button>
+            <Label Text="0" BackgroundColor="Black" FontSize="48" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" TextColor="White" x:Name="resultat"/>
+            <Button Text="About" Grid.Row="0" Grid.Column="3" Clicked="OnAbout"></Button>
+            <Button Text="1" Grid.Row="1" Grid.Column="0" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="2" Grid.Row="1" Grid.Column="1" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="3" Grid.Row="1" Grid.Column="2" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="*" Grid.Row="1" Grid.Column="3" BackgroundColor="Orange" Clicked="OnOperatorSelect"></Button>
+            <Button Text="4" Grid.Row="2" Grid.Column="0" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="5" Grid.Row="2" Grid.Column="1" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="6" Grid.Row="2" Grid.Column="2" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="+" Grid.Row="2" Grid.Column="3" BackgroundColor="Orange" Clicked="OnOperatorSelect"></Button>
+            <Button Text="7" Grid.Row="3" Grid.Column="0" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="8" Grid.Row="3" Grid.Column="1" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="9" Grid.Row="3" Grid.Column="2" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="-" Grid.Row="3" Grid.Column="3" BackgroundColor="Orange" Clicked="OnOperatorSelect"></Button>
+            <Button Text="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Clicked="OnElementSelect" Style="{StaticResource NumberButton}"></Button>
+            <Button Text="/" Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" Clicked="OnOperatorSelect"></Button>
+            <Button Text="C" Grid.Row="5" Grid.Column="0" BackgroundColor="Gray" Clicked="OnClear"></Button>
+            <Button Text="=" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="Orange" Clicked="OnCalculate"></Button>
+
         </Grid>
 
 
@@ -41,3 +57,4 @@
     </StackLayout>
 
 </ContentPage>
+
